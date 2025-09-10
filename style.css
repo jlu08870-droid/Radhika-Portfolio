@@ -1,0 +1,8 @@
+/* General style tweaks */
+.nav-link {
+  @apply text-gray-700 hover:text-pink-900 font-medium transition;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
