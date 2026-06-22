@@ -1,75 +1,324 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Radhika Naik - Portfolio</title>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radhika Naik | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-pink-50 text-gray-800 font-sans">
 
- 
-  <header class="bg-pink-200 shadow">
-    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
-      <h1 class="font-bold text-lg text-pink-900">Radhika Naik</h1>
-      <div class="space-x-6">
-        <a href="index.html" class="nav-link text-pink-700">Home</a>
-        <a href="projects.html" class="nav-link">Projects</a>
-        <a href="contact.html" class="nav-link">Contact</a>
-      </div>
-    </nav>
-  </header>
+<body>
 
- 
-  <main class="container mx-auto px-6 py-12 text-center">
-    <img src="profile.jpeg" alt="Profile" class="w-32 h-32 rounded-full mx-auto border-4 border-pink-300">
-    <h2 class="text-3xl font-bold mt-4 text-pink-900">Radhika Naik</h2>
-    <p class="mt-2 text-gray-700">Second Year B.Tech CSE Student</p>
-    <p class="mt-4 max-w-xl mx-auto">
-      Passionate about applying technology to real-world challenges, engaging in projects, research, and competitions to enhance technical and analytical skills.
-    </p>
-  </main>
+    <div class="cursor"></div>
 
- 
-  <section class="container mx-auto px-6 py-8">
-    <h3 class="text-2xl font-semibold text-pink-800 mb-4">About Me</h3>
-    <p><strong>Objective:</strong> To obtain a challenging UI/UX Designer position where my creativity, problem-solving skills, and experience in designing engaging and user-friendly interfaces can be utilized to enhance user experiences and drive business objectives.</p>
-    
-    <h4 class="mt-6 text-pink-700 font-semibold">Education</h4>
-    <p>B.Tech in Computer Science Engineering, Jagran Lakecity University (2024 - Present)</p>
-    
-    <h4 class="mt-6 text-pink-700 font-semibold">Skills</h4>
-    <ul class="list-disc ml-6">
-      <li>Teamwork & Leadership</li>
-      <li>Presentation</li>
-      <li>Problem Solving</li>
-      <li>Creative Thinking</li>
-    </ul>
+    <header class="header">
+        <div class="logo">RN.</div>
 
-    <h4 class="mt-6 text-pink-700 font-semibold">Technical Skills</h4>
-    <ul class="list-disc ml-6">
-      <li>Programming: C, C++, Python, SQL</li>
-      <li>Web Development: HTML, CSS, JavaScript</li>
-      <li>Data structure and algorithms</li>
-      <li>Tools: WordPress, Canva, VS Code</li>
-    </ul>
-  </section>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#expertise">Skills</a>
+            <a href="#projects">Work</a>
+            <a href="#achievements">Awards</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
+    <!-- HERO -->
 
-  <section class="container mx-auto px-6 py-8 text-center">
-    <h3 class="text-xl font-semibold text-pink-700">Background Music</h3>
-    <audio controls class="mt-4 mx-auto">
-      <source src="background.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-  </section>
+    <section class="hero">
 
- 
-  <footer class="bg-pink-200 py-4 text-center text-sm text-gray-700">
-    © 2025 Radhika Naik
-  </footer>
+        <div class="hero-left">
+
+            <span class="intro-tag">
+                Hello, I'm Radhika
+            </span>
+
+            <h1>
+                Building Digital Experiences Through
+                <span>Web Development</span>,
+                <span>UI/UX Design</span>
+                & Artificial Intelligence
+            </h1>
+
+            <p>
+                Computer Science Engineering Student passionate
+                about creating meaningful digital products that
+                combine functionality, creativity and innovation.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn-primary">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn-secondary">
+                    Let's Connect
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <img src="https://img.sanishtech.com/u/08c6a63b0e331c32548b2f098918619f.jpg" alt="radd" >
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="about">
+
+        <div class="section-label">
+            ABOUT
+        </div>
+
+        <h2>
+            Passionate about technology,
+            design and innovation.
+        </h2>
+
+        <p>
+            Technology fascinates me because it has the power to
+            simplify lives, solve problems and create meaningful
+            experiences.
+        </p>
+
+        <p>
+            I am a B.Tech Computer Science student exploring Web
+            Development, UI/UX Design and Artificial Intelligence.
+            I enjoy transforming ideas into digital products that
+            are functional, intuitive and impactful.
+        </p>
+
+        <p>
+            Beyond technology, Kathak and music have shaped my
+            creativity, discipline and attention to detail—
+            qualities that influence every project I work on.
+        </p>
+
+    </section>
+
+    <!-- EXPERTISE -->
+
+    <section id="expertise" class="expertise">
+
+        <div class="section-label">
+            EXPERTISE
+        </div>
+
+        <div class="expertise-grid">
+
+            <div class="card">
+                <h3>Web Development</h3>
+
+                <p>
+                    Building responsive and interactive web
+                    applications using HTML, CSS, JavaScript,
+                    Django and modern development practices.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>UI/UX Design</h3>
+
+                <p>
+                    Creating intuitive user experiences through
+                    UX research, wireframing, prototyping and
+                    information architecture.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Artificial Intelligence</h3>
+
+                <p>
+                    Exploring recommendation systems,
+                    prompt engineering and LLM-powered solutions.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Problem Solving</h3>
+
+                <p>
+                    Applying analytical thinking and creativity
+                    to build innovative technology solutions.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="projects">
+
+        <div class="section-label">
+            PROJECTS
+        </div>
+
+        <h2>Featured Work</h2>
+
+        <div class="project-grid">
+
+            <div class="project">
+
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200">
+
+                <div class="project-info">
+
+                    <h3>Style Muse</h3>
+
+                    <p>
+                        Full-stack outfit recommendation platform
+                        using Django, Python and SQL databases.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="project">
+
+                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200">
+
+                <div class="project-info">
+
+                    <h3>AI Room Decor Recommendation System</h3>
+
+                    <p>
+                        AI-powered recommendation assistant using
+                        LLMs and prompt engineering.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="project">
+
+                <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=1200">
+
+                <div class="project-info">
+
+                    <h3>JLU Website UX Redesign</h3>
+
+                    <p>
+                        Complete UX redesign focused on usability,
+                        accessibility and user experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="project">
+
+                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200">
+
+                <div class="project-info">
+
+                    <h3>8-Bit CPU Design</h3>
+
+                    <p>
+                        Designed and simulated an 8-bit CPU
+                        architecture using Logisim.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+
+    <section id="achievements" class="achievements">
+
+        <div class="section-label">
+            ACHIEVEMENTS
+        </div>
+
+        <div class="achievement-grid">
+
+            <div class="achievement">
+                🏆 Academic Excellence Award (2024–25)
+            </div>
+
+            <div class="achievement">
+                🚀 Participated in University Hackathons
+            </div>
+
+            <div class="achievement">
+                💡 Participated in Ideathons & Innovation Challenges
+            </div>
+
+            <div class="achievement">
+                📊 Deloitte Data Analytics Simulation
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+
+        <div class="section-label">
+            CONTACT
+        </div>
+
+        <h2>
+            Let's build something meaningful together.
+        </h2>
+
+        <p>
+            Open to internships, collaborations and opportunities
+            to learn and grow.
+        </p>
+
+        <div class="socials">
+
+            <a href="https://github.com/jlu08870-droid" target="_blank">
+            <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/radhika-naik-247944383/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="mailto:radhikanaik2017@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+    <footer>
+        © 2025 Radhika Naik
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
-
 </html>
-
+```
